@@ -30,4 +30,13 @@ git revert <commit> (tranh dung, bat dac di)
 
 .gitignore
 
+github
+git push
+
+git config --global credential.helper store
+// not recommend
+
+git config --global credential.helper "cache --timeout=18000"
+
+goole "gnome-keyring" "git ssh"
 */
